@@ -1,0 +1,24 @@
+# 本地品牌配置（覆盖 info.template.yaml，不纳入版本控制的默认值）
+
+# 组织信息
+organization:
+  name: "VANTAGE_Agentic-RAG"   # 侧边栏显示的名称
+  logo: "/vantage-logo.svg"      # Logo文件路径
+  avatar: "/vantage-logo.svg"    # 侧边栏头像图标
+  login_bg: "/login-bg.jpg"
+
+# 项目信息
+branding:
+  name: "VANTAGE"
+  title: "Agentic Rag Research Platform"
+  subtitle: "融合 RAG 与知识图谱的智能体研究平台"
+  subtitles:
+    - "融合 RAG 与知识图谱的智能体研究平台"
+    - "统一编排 Agent、知识库、图谱与工具链"
+    - "让智能体可构建，让知识可连接，让决策可验证"
+
+# 页脚信息
+footer:
+  copyright: "© VANTAGE 2026 v{{YUXI_VERSION}}"
+  user_agreement_url: "/protocols/user-agreement.template.html"
+  privacy_policy_url: "/protocols/privacy-policy.template.html"
